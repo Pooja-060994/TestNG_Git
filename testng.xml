@@ -4,6 +4,11 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="TakeScreenShot"/>
+      <class name="AlertHandling_ScreenShot"/>
+      <class name="Data_Provider_Demo"/>
+      <class name="New_Tab_Two"/>
+      <class name="New_tab"/>
+      <class name="ScreenshootGoogle"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
