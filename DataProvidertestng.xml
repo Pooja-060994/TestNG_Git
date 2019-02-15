@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+<parameter name="browser" value="chrome"></parameter>
+  <test thread-count="5" name="TestC">
+    <classes>
+      <class name="Data_Provider_Demo"/>
+    </classes>
+  </test> <!-- Test -->
+  <parameter name="browser" value="firefox"></parameter>
+  <test thread-count="5" name="TestF">
+    <classes>
+      <class name="Data_Provider_Demo"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->
